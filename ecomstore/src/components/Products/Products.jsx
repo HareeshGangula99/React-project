@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 import "./products.css";
-// import axios from "axios";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -17,10 +16,7 @@ const Products = () => {
     setProducts(responseProducts);
   };
 
-//   const getProductsData = async () => {
-//     const productsData = await axios.get(`https://fakestoreapi.com/products`);
-//     setProducts(productsData.data);
-//   };
+
 
   return (
     <>
