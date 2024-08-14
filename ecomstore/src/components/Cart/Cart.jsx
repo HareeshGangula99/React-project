@@ -21,7 +21,7 @@ const Cart = () => {
           <p className="text-center">Total Price: ${totalPrice}</p>
         </div>
       )}
-      {/* {cart_data && cart_data.lenghth  ? ( */}
+      
       {cart_data && cart_data.length > 0 ? (
         cart_data.map((product) => (
           <div className="row border ">
